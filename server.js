@@ -10,7 +10,7 @@ let db,
   dbConnectionStr = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.rzf78.mongodb.net/acnh-quotes?retryWrites=true&w=majority`,
   dbName = 'acnh-quotes'
 
-MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true })
+MongoClient.connect(dbConnectionStr || 'mongodb://localhost/acnh-quotes', { useUnifiedTopology: true })
   .then(client => {
     console.log(`Connected to ${dbName} Database`)
     db = client.db(dbName)
@@ -45,3 +45,5 @@ app.post('/quotes', (request, response) => {
 app.listen(process.env.PORT || PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
+
+module.exports = app;
