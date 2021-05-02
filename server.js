@@ -1,13 +1,11 @@
 const express = require('express')
 const app = express()
-const dotenv = require('dotenv')
-dotenv.config()
+const dotenv = require('dotenv').config()
 const MongoClient = require('mongodb').MongoClient
 const PORT = 8000
 
-
 let db,
-  dbConnectionStr = `mongodb+srv://pascal:pearlsBeforeSwine@cluster0.rzf78.mongodb.net/acnh-quotes?retryWrites=true&w=majority`,
+  dbConnectionStr = process.env.DB_URI,
   dbName = 'acnh-quotes'
 
 MongoClient.connect(dbConnectionStr || 'mongodb://localhost/acnh-quotes', { useUnifiedTopology: true })
