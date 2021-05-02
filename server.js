@@ -45,5 +45,3 @@ app.post('/quotes', (request, response) => {
 app.listen(process.env.PORT || PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
-
-module.exports = app;
