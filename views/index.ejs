@@ -1,0 +1,33 @@
+<!-- In index.ejs -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>ACNH Quotes</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet' href="css/main.css">
+</head>
+
+<body>
+  <section class="container">
+    <section class="menu"><span class="hamburger">+</span></section>
+    <section class="overview">
+      <h1>Words of Wisdom from Animal Crossing's Pascal</h1>
+      <p>Built by <a href="https://github.com/geraldiner" target="_blank" rel="noopener noreferrer">Geraldine</a></p>
+    </section>
+    <section class="quoteContainer">
+      <blockquote class="quote">
+        <p>
+          <%= quote.quote %>
+        </p>
+      </blockquote>
+      <button id="anothaOne" class="btn" type="button">and anotha one</button>
+    </section>
+  </section>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
