@@ -8,7 +8,7 @@ let db,
   dbConnectionStr = process.env.DB_URI,
   dbName = 'acnh-quotes'
 
-MongoClient.connect(dbConnectionStr || 'mongodb://localhost/acnh-quotes', { useUnifiedTopology: true })
+MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true })
   .then(client => {
     console.log(`Connected to ${dbName} Database`)
     db = client.db(dbName)
