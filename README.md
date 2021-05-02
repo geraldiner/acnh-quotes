@@ -10,7 +10,7 @@ And about Pave: https://animalcrossing.fandom.com/wiki/Pav%C3%A9
 **Link to project:** https://acnh-quotes.herokuapp.com
  
 # How It's Made:
-**Tech used:** HTML, CSS, JavaScript
+**Tech used:** HTML, CSS, JavaScript, NodeJS, ExpressJS
 
 I started out with initializing a node project with `npm init` and installing `express`.
 
