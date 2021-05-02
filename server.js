@@ -7,7 +7,7 @@ const PORT = 8000
 
 
 let db,
-  dbConnectionStr = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.rzf78.mongodb.net/acnh-quotes?retryWrites=true&w=majority`,
+  dbConnectionStr = `mongodb+srv://pascal:pearlsBeforeSwine@cluster0.rzf78.mongodb.net/acnh-quotes?retryWrites=true&w=majority`,
   dbName = 'acnh-quotes'
 
 MongoClient.connect(dbConnectionStr || 'mongodb://localhost/acnh-quotes', { useUnifiedTopology: true })
