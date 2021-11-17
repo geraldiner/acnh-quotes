@@ -7,9 +7,7 @@ Learn more about Pascal: https://animalcrossing.fandom.com/wiki/Pascal
 
 And about Pave: https://animalcrossing.fandom.com/wiki/Pav%C3%A9
  
-**Link to project:** https://acnh-quotes.herokuapp.com
- 
-# How It's Made:
+## How It's Made
 **Tech used:** HTML, CSS, JavaScript, NodeJS, ExpressJS
 
 I started out with initializing a node project with `npm init` and installing `express`.
@@ -23,7 +21,7 @@ I went through each of the CRUD requests and added some functionality to it.
 
 In polishing the site, I removed the CUD functionality, with the assumption that there wouldn't be many new quotes to be added. And replacing Pascal's quotes with a Pave one didn't really add much value.
  
-# Optimizations
+## Optimizations
 The biggest optimization I wanted to address in this project was how to hide any credentials, such as API keys or username/password combos, from Github while making sure I could still deploy to Heroku. 
 
 After reading and listening to a bunch of Youtube videos, it seemed easy enough. But still, it took about an hour to set up. Not bad for my first time.
@@ -32,7 +30,7 @@ It was all just a matter of setting up `config variables`.
 
 I really deviated from the tutorial by taking away the actual CUD parts, but while building I still went through them to get the hang of it. In my version, instead of replacing Yoda's quotes with a Darth Vader quote, I replaced Pascal's quote with a [Pave quote](https://animalcrossing.fandom.com/wiki/Pav%C3%A9)...which really only boils down to: 'Pave must DANCE'.
  
-# Lessons Learned:
+## Lessons Learned
  
 I spent a long time trying to fix an authentication error to MongoDB before realizing it was because I hadn't replaced the template string properly with my credentials. 🙃
 
@@ -45,12 +43,6 @@ This was also my first time deploying to Heroku, which has always seemed like a 
 <cite><a href="https://wiki.healthygamer.gg/en/Motivation" target="_blank">Dr. K, HealthyGamer.gg</a></cite>
 </blockquote>
  
-# Other Projects:
-Take a look at other cool stuff I've worked on:
- 
-**Animal Crossing BGM IRL:** <a href='https://github.com/geraldiner/acnh-bgm-irl' target='_blank'>https://github.com/geraldiner/acnh-bgm-irl</a>
- 
-**Hide & Reveal Information Map:** <a href='https://github.com/geraldiner/hide-reveal' target='_blank'>https://github.com/geraldiner/hide-reveal</a
 ## Other Projects
 
 Check out other stuff I've worked on:
