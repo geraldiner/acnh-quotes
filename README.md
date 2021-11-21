@@ -43,6 +43,7 @@ This was also my first time deploying to Heroku, which has always seemed like a 
 <cite><a href="https://wiki.healthygamer.gg/en/Motivation" target="_blank">Dr. K, HealthyGamer.gg</a></cite>
 </blockquote>
  
+
 ## Other Projects
 
 Check out other stuff I've worked on:
@@ -54,5 +55,3 @@ Check out other stuff I've worked on:
 **Snapchat Clone:** https://github.com/geraldiner/snapchat-clone
 
 **K.K. Radio:** https://github.com/geraldiner/kk-radio
-
-**Interactive Piano:** https://github.com/geraldiner/piano
